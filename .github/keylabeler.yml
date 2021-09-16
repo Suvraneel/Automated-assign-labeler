@@ -9,7 +9,6 @@ caseSensitive: false
 
 # Explicit keyword mappings to labels. Form of match:label. Required.
 labelMappings:
-  C: C
   C-Plus-Plus: C-Plus-Plus
   CPP: C-Plus-Plus
   C++: C-Plus-Plus
@@ -28,3 +27,12 @@ labelMappings:
   Android Flutter: Android with Flutter
   documentation: documentation
   doc : documentation
+  ui : UI/UX
+  ux : UI/UX
+  frontend : Frontend
+  javascript : JavaScript
+  .net : dot-NET
+  interview : Interview-Preparation
+  statistics : Statistics
+  audio : Audio
+  video : Video
