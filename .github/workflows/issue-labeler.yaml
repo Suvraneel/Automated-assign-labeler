@@ -11,5 +11,5 @@ jobs:
       - uses: github/issue-labeler@v2.0
         with:
           repo-token: "${{ secrets.GITHUB_TOKEN }}"
-          configuration-path: .github/issues_labeler.yml
+          configuration-path: .github/issues_label.yaml
           enable-versioned-regex: 0
