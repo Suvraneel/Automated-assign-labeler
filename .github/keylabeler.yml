@@ -28,3 +28,9 @@ labelMappings:
   Android Java: Android with Java
   Android Kotlin: Android with Kotlin
   Android Flutter: Android with Flutter
+  documentation: documentation
+  doc : documentation
+  C : C
+  C-Plus-Plus : C-Plus-Plus
+  CPP : C-Plus-Plus
+  C++ : C-Plus-Plus
