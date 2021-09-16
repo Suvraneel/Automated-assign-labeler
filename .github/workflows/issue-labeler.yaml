@@ -1,4 +1,4 @@
-	name: Issues Labeler
+name: Issues Labeler
 on:
   issues:
     types: [opened, edited]
