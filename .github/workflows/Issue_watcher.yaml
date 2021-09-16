@@ -16,4 +16,4 @@ jobs:
           token: "${{ secrets.GITHUB_TOKEN }}"
           author: "${{github.actor}}"
           repo: Suvraneel/Automated-assign-labeler #Change the Repo name
-          maxIssue: 2
+          maxIssue: 3
