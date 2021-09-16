@@ -10,5 +10,8 @@ caseSensitive: false
 # Explicit keyword mappings to labels. Form of match:label. Required.
 labelMappings:
   hooks: documentation
-  ( C ) : C
-  (C-Plus-Plus|CPP|cpp) : C-Plus-Plus
+  C : C
+  C-Plus-Plus : C-Plus-Plus
+  CPP : C-Plus-Plus
+  cpp : C-Plus-Plus
+  C++ : C-Plus-Plus
