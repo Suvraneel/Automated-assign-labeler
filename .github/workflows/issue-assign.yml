@@ -22,10 +22,6 @@ jobs:
           days_until_warning: 5
           days_until_unassign: 7
           stale_assignment_label: Open
-          
-  first-job:
-    runs-on: ubuntu-latest
-    steps:
       - name: Checkout code
         uses: actions/checkout@main
       - name: Run Action
