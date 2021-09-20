@@ -10,8 +10,8 @@
 
 <!----Please delete options that are not relevant.And in order to tick the check box just but x inside them for example [x] like this----->
 
-- [ ] Android Dev - Flutter, Java, Kotlin
-- [ ] Backend Dev - Java, .NET, Python
+- [ ] Android Dev (Flutter, Java, Kotlin)
+- [ ] Backend Dev (Java, .NET, Python)
 - [ ] C/CPP
 - [ ] Competitive Programming
 - [ ] Cyber Security
@@ -19,16 +19,16 @@
 - [ ] Database
 - [ ] Datascience with Python
 - [ ] Datascience with R
-- [ ] Frontend Dev - HTML, CSS, JS
-- [ ] Frontend Dev - React, Angular, Vue
+- [ ] Frontend Dev (HTML, CSS, JS)
+- [ ] Frontend Dev (React, Angular, Vue)
 - [ ] Golang
 - [ ] Interview Prep
-- [ ] Java - Domain
+- [ ] Java Domain
 - [ ] JavaScript
 - [ ] MERN
 - [ ] Machine Learning
 - [ ] Open Source
-- [ ] Python - Domain
+- [ ] Python Domain
 - [ ] Rust
 - [ ] Statistics
 - [ ] UI/UX
