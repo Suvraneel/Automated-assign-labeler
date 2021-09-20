@@ -23,19 +23,14 @@
 - [ ] Frontend Dev (React, Angular, Vue)
 - [ ] Golang
 - [ ] Interview Prep
-- [ ] Java
+- [ ] Java (Domain)
 - [ ] JavaScript
 - [ ] MERN
 - [ ] Machine Learning
 - [ ] Open Source
-- [ ] Python
+- [ ] Python (Domain)
 - [ ] Rust
 - [ ] Statistics
 - [ ] UI/UX
-
-<hr>
-<!----Please enter your batch number inside the parenthesis. For example, Batch (0) like this----->
-
-## Batch ( ) 🔱
 
 <hr>
