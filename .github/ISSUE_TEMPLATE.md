@@ -19,8 +19,8 @@
 - [ ] Database
 - [ ] Datascience with Python
 - [ ] Datascience with R
-- [ ] Frontend Dev 1 (HTML, CSS, JS)
-- [ ] Frontend Dev 2 (React, Angular, Vue)
+- [ ] Frontend Dev (HTML, CSS, JS) - FEWD1
+- [ ] Frontend Dev (React, Angular, Vue) - FEWD2
 - [ ] Golang
 - [ ] Interview Prep
 - [ ] Java_Domain
