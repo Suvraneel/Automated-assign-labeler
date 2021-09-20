@@ -21,8 +21,8 @@ labelMappings:
   Database : Database
   Datascience with Python : Datascience with Python
   Datascience with R : Datascience with R
-  Frontend Dev with HTML, CSS, JS : Frontend Dev with HTML, CSS, JS
-  Frontend Dev with React, Angular, Vue : Frontend Dev with React, Angular, Vue
+  Frontend Dev 1 : Frontend Dev with HTML, CSS, JS
+  Frontend Dev 2 : Frontend Dev with React, Angular, Vue
   Golang : Golang
   Interview Prep : Interview Prep
   Java_Domain : Java
