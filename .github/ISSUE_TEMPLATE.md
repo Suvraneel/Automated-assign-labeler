@@ -23,12 +23,12 @@
 - [ ] Frontend Dev with React, Angular, Vue
 - [ ] Golang
 - [ ] Interview Prep
-- [ ] Java Domain
+- [ ] Java_Domain
 - [ ] JavaScript
 - [ ] MERN
 - [ ] Machine Learning
 - [ ] Open Source
-- [ ] Python Domain
+- [ ] Python_Domain
 - [ ] Rust
 - [ ] Statistics
 - [ ] UI/UX
