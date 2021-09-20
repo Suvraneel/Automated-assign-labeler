@@ -19,8 +19,8 @@
 - [ ] Database
 - [ ] Datascience with Python
 - [ ] Datascience with R
-- [ ] Frontend Dev with HTML, CSS, JS
-- [ ] Frontend Dev with React, Angular, Vue
+- [ ] Frontend Dev HTML/CSS/JS
+- [ ] Frontend Dev React/Angular/Vue
 - [ ] Golang
 - [ ] Interview Prep
 - [ ] Java_Domain
