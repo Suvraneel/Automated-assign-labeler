@@ -9,33 +9,33 @@ caseSensitive: false
 
 # Explicit keyword mappings to labels. Form of match:label. Required.
 labelMappings:
-  [x] Audio : Audio
-  [x] Video : Video
-  [x] Documentation : Documentation
-  [x] Android Dev (Flutter): Android-Dev-Java
-  [x] Android Dev (Kotlin): Android-Dev-Kotlin
-  [x] Android Dev (Java): Android-Dev-Java
-  [x] Backend Dev (Java):  Backend-Dev-Java
-  [x] Backend Dev (.NET):  .NET
-  [x] Backend Dev (PHP):  Backend-Dev-PHP
-  [x] Backend Dev (Python): Backend-Dev-Python
-  [x] C/CPP : C/CPP
-  [x] Competitive Programming : Competitive Programming
-  [x] Cyber Security : Cyber Security
-  [x] DSA : DSA
-  [x] Database : Database
-  [x] Datascience with Python : Datascience with Python
-  [x] Datascience with R : Datascience with R
-  [x] Frontend Dev HTML/CSS/JS : Frontend Dev HTML/CSS/JS
-  [x] Frontend Dev React/Angular/Vue : Frontend Dev React/Angular/Vue
-  [x] Golang : Golang
-  [x] Interview Prep : Interview Prep
-  [x] Java_Domain : Java
-  [x] JavaScript : JavaScript
-  [x] MERN : MERN
-  [x] Machine Learning : Machine Learning
-  [x] Open Source : Open Source
-  [x] Python_Domain : Python
-  [x] Rust : Rust
-  [x] Statistics : Statistics
-  [x] UI/UX : UI/UX
+  Audio : Audio
+  Video : Video
+  Documentation : Documentation
+  Android Dev (Flutter): Android-Dev-Java
+  Android Dev (Kotlin): Android-Dev-Kotlin
+  Android Dev (Java): Android-Dev-Java
+  Backend Dev (Java):  Backend-Dev-Java
+  Backend Dev (.NET):  .NET
+  Backend Dev (PHP):  Backend-Dev-PHP
+  Backend Dev (Python): Backend-Dev-Python
+  C/CPP : C/CPP
+  Competitive Programming : Competitive Programming
+  Cyber Security : Cyber Security
+  DSA : DSA
+  Database : Database
+  Datascience with Python : Datascience with Python
+  Datascience with R : Datascience with R
+  Frontend Dev HTML/CSS/JS : Frontend Dev HTML/CSS/JS
+  Frontend Dev React/Angular/Vue : Frontend Dev React/Angular/Vue
+  Golang : Golang
+  Interview Prep : Interview Prep
+  Java_Domain : Java
+  JavaScript : JavaScript
+  MERN : MERN
+  Machine Learning : Machine Learning
+  Open Source : Open Source
+  Python_Domain : Python
+  Rust : Rust
+  Statistics : Statistics
+  UI/UX : UI/UX
