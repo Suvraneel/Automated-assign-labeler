@@ -54,7 +54,7 @@ body:
   - type: checkboxes
     id: contribtype
     attributes:
-      label: What browsers are you seeing the problem on?
+      label: Type of Contribution
       options:
         - label: Audio
         - label: Video
