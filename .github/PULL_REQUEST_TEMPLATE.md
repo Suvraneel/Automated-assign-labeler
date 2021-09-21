@@ -28,6 +28,7 @@ Fixes # <issue_number_here>
 - [ ] Backend Dev #(Java)
 - [ ] Backend Dev #(.NET)
 - [ ] Backend Dev #(PHP)
+- [ ] Backend Dev #(Python)
 - [ ] C/#CPP
 - [ ] Competitive #Programming
 - [ ] Cyber #Security
