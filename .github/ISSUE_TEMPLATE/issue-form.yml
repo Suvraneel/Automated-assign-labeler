@@ -19,8 +19,8 @@ body:
   - type: dropdown
     id: version
     attributes:
-      label: Field
-      description: What Field you want to work on
+      label: Domain
+      description: Select domain of Contribution
       options:
         - Android Dev (Flutter)
         - Android Dev (Java)
