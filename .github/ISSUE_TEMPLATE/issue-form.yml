@@ -55,7 +55,6 @@ body:
     id: contribtype
     attributes:
       label: What browsers are you seeing the problem on?
-      multiple: true
       options:
         - label: Audio
         - label: Video
