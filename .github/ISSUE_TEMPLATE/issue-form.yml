@@ -57,10 +57,10 @@ body:
       label: Type of Contribution
       multiple: true
       options:
-        - label: Audio
-        - label: Video
-        - label: Documentation
-        - label: Others
+        - Audio
+        - Video
+        - Documentation
+        - Others
   - type: checkboxes
     id: terms
     attributes:
