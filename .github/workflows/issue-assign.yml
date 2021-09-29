@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Assign the user or unassign stale assignments
-        uses: Suvraneel/slash-assign-action@v0.0.3
+        uses: JasonEtco/slash-assign-action@v0.0.3
         with:
           assigned_label: Assigned
           days_until_warning: 5
