@@ -4,6 +4,11 @@ This repository is a collection of numerous existing actions on marketplace bunc
 All links to marketplace & usage here have been provided.
 This helps keep the repo clean, concise & out of chaos moderating the process right from the beginning (issue creation) to the end (PR merge/close)
 
+## Special Custom Action
+  ### [Issue Watcher](https://github.com/Suvraneel/Issue_Watcher)
+  
+--- 
+
 ## Features
 - ### Issue/PR Creation Actions
   - Greeting Action greets contributor
@@ -29,7 +34,7 @@ This helps keep the repo clean, concise & out of chaos moderating the process ri
     
 - ### On PR close
   - Finds & closes any linked issues to the PR
-      - **Find the workflow file [here](.github/workflows/Auto_Issue_Closer.yml)*
+      - **Find the workflow file [here](.github/workflows/Auto_Issue_Closer.yml)**
       
 - ### Close Stale Issues
   - Marks & closes stale issue after a pre-stipulated time.
