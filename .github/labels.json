@@ -1,29 +1,42 @@
 {
   "labels": {
-    "example": {
-      "name": "example",
+    "Universal Label": {
+      "name": "Default Label",
       "colour": "#00ff00",
-      "description": "Example label"
+      "description": "Compulsory universal label"
     }
   },
   "issue": {
-    "example": {
+    "CyberSecurity": {
       "requires": 2,
       "conditions": [
         {
           "type": "titleMatches",
-          "pattern": "example"
+          "pattern": "Cybersecurity"
         },
         {
           "type": "isOpen"
         }
       ]
     }
-  },
-  "pr": {
-    "example": {
+    "Open to All": {
       "requires": 1,
       "conditions": [
+        {
+          "type": "creatorMatches",
+          "pattern": "^Suvraneel"
+        }
+      ]
+    }
+  },
+  "pr": {
+    "C++": {
+      "requires": 2,
+      "conditions": [
+        {
+          "type": "branchMatches",
+          "pattern": "^C_CPP\\/"
+        },
         {
           "type": "isDraft",
           "value": false
