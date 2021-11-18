@@ -1,5 +1,4 @@
 name: Super Labeler
-
 on:
   issues: [opened, edited, closed, reopened]
   pull_request:
