@@ -19,3 +19,5 @@ jobs:
           days-before-stale: 30
           days-before-close: 5
           days-before-pr-close: -1
+          exempt-issue-milestones: 'important, crucial, critical, no_stale'
+          exempt-pr-milestones: 'important, crucial, critical, no_stale'
