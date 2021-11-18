@@ -3,7 +3,7 @@ name: Super Labeler
 on:
   issues: [opened, edited, closed, reopened]
   pull_request:
-    types: [opened, edited, closed, reopened, ready_for_review, synchronize]
+    types: [ assigned, opened, synchronize, reopened ]
 
 jobs:
   label:
