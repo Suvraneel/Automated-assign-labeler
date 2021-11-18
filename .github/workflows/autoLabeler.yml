@@ -7,8 +7,6 @@ on:
       # It's actually not harmful to trigger the action on all activity types.
       - opened
       - edited
-
-on:
   pull_request:
     types:
       - opened
