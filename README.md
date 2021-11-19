@@ -6,7 +6,7 @@ This helps keep the repo clean, concise & out of chaos moderating the process ri
 
 ## Special Custom Action
   > ### [Issue Watcher](https://github.com/Suvraneel/Issue_Watcher)
-  > Avoids misuse of self-assigns by limiting the no. of issues that can be claimed by assignees
+  > #### ***Avoids misuse of self-assigns by limiting the no. of issues that can be claimed by assignees***
 --- 
 
 ## Features
