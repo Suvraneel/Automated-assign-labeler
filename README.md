@@ -40,6 +40,10 @@ This helps keep the repo clean, concise & out of chaos moderating the process ri
   - Marks & closes stale issue after a pre-stipulated time.
       - [Action here](https://github.com/marketplace/actions/close-stale-issues)
       - [Bot here](https://github.com/marketplace/stale) *(Recommended)*
-    
+
+- ### Auto-updates Contributors list
+  - Fetches top contributors & adds them to `CONTRIBUTORS.md`
+      - **Find the workflow file [here](.github/workflows/update-contributors.yml)**  
+      - [Bot here](https://allcontributors.org/docs/en/bot/installation) *(Recommended)*
     
 ### Note-  Issue Form (Beta) has been utilised here for keylabeler to work super-efficently 
