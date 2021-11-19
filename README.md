@@ -5,8 +5,8 @@ All links to marketplace & usage here have been provided.
 This helps keep the repo clean, concise & out of chaos moderating the process right from the beginning (issue creation) to the end (PR merge/close)
 
 ## Special Custom Action
-  ### [Issue Watcher](https://github.com/Suvraneel/Issue_Watcher)
-  
+  > ### [Issue Watcher](https://github.com/Suvraneel/Issue_Watcher)
+  > Avoids misuse of self-assigns by limiting the no. of issues that can be claimed by assignees
 --- 
 
 ## Features
