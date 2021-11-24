@@ -1,4 +1,7 @@
-# Automated-assign-labeler
+![Automated-assign-labeler](https://user-images.githubusercontent.com/63473496/143197539-a9a7f978-5a0d-4946-b2bf-6d524a53f349.png)
+
+
+# Automated Self-assign + Key Labeler + Contributors workflow
 
 This repository is a collection of numerous existing actions on marketplace bunched together to function ultra-efficiently.  
 All links to marketplace & usage here have been provided.
