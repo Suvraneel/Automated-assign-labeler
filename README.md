@@ -8,58 +8,13 @@ This helps keep the repo clean, concise & out of chaos moderating the process ri
   > ### [Issue Watcher](https://github.com/Suvraneel/Issue_Watcher)
   > #### ***Avoids misuse of self-assigns by limiting the no. of issues that can be claimed by assignees***
 
---- 
-
-## Features
-- ### Issue/PR Creation Actions
-  - Greeting Action greets contributor  
-      - *Example Workflow :*  
-      **Find the workflow file [here](.github/workflows/greetings.yml)**  
-
-  - Self-assign using `/assign`
-  - Preventing rogue issue spammers by limiting number of self-assigns (by default, 3)  
-    - *Example Workflow :*  
-    **Find the workflow file [here](.github/workflows/issue-assign.yml)**
-    
-- ### Issue/PR Auto Labeler  
-  #### *Note* - There are numerous labelers present in the marketplace. So, maintainers are requested to choose in accordance to project requirements. Consequently, a combination has been used here, in order to capture the best of both worlds.
-  Types :
-    - Labels issues based on keywords found in Issue/PR
-      - Action deprecated, so [Bot here](https://github.com/marketplace/keywordlabeler) *(Recommended)*
-      - Configuration file [here](.github/keylabeler.yml)
-    - Labels PRs based on extension of file changed
-      - [Action here](https://github.com/marketplace/actions/auto-label-action)  
-      - *Example Workflow :*  
-        **Find the workflow file [here](.github/workflows/greetings.yml)**  
-        Configuration file [here](.github/auto-label.json)
-  - Labels PRs based on branch  
-    - [Action here](https://github.com/marketplace/actions/label-mastermind)
-    
-- ### On PR close
-  - Finds & closes any linked issues to the PR
-      - Example Workflow :  
-      **Find the workflow file [here](.github/workflows/Auto_Issue_Closer.yml)**
-      
-- ### Close Stale Issues
-  - Marks & closes stale issue after a pre-stipulated time.
-      - [Action here](https://github.com/marketplace/actions/close-stale-issues)
-        or
-      - [Bot here](https://github.com/marketplace/stale) *(Recommended)*
-
-- ### Auto-updates Contributors list
-  - Fetches top contributors & adds them to `CONTRIBUTORS.md`
-      - Example Workflow :  
-      **Find the workflow file [here](.github/workflows/update-contributors.yml)**  
-        or
-      - [Bot here](https://allcontributors.org/docs/en/bot/installation) *(Recommended)*
-      - Configuration file [here](.github/keylabeler.yml)
-    
-### Note-  Issue Form (Beta) has been utilised here for keylabeler to work super-efficently  
-  
 ---
 
-## Featured Workflow Example for [Issue Watcher](https://github.com/Suvraneel/Issue_Watcher)
-```yaml
+## Featured Workflow Examples
+
+### 1. Controlled Issue Self-Assigns
+*"More power to contributors, more power to the maintainers"*
+```yml
 name: Assigner
 
 on:
@@ -105,3 +60,79 @@ jobs:
           repo: Suvraneel/Automated-assign-labeler #Change the Repo name
           maxIssue: 3
 ```
+
+### 2. Generating dynamic formatted `Contributors.md` file
+*"Reward the contributors with an attribution"*
+- Sorted according to their contributions in the project
+```yml
+name: Contribute List
+on:
+    push:
+        branches:
+            - main
+    workflow_dispatch:
+
+jobs:
+    contrib-readme-job:
+        runs-on: ubuntu-latest
+        name: A job to automate contrib in readme
+        steps:
+            - name: Contribute List
+              uses: akhilmhdh/contributors-readme-action@v2.3.3
+              with:
+                  readme_path: "contributors.md"
+              env:
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+```
+
+---
+## Features
+- ### Issue/PR Creation Actions
+  - Greeting Action greets contributor  
+      - *Example Workflow :*  
+      **Find the workflow file [here](.github/workflows/greetings.yml)**  
+
+  - Self-assign using `/assign`
+  - Preventing rogue issue spammers by limiting number of self-assigns (by default, 3)  
+    - *Example Workflow :*  
+    **Find the workflow file [here](.github/workflows/issue-assign.yml)**
+    
+- ### Issue/PR Auto Labeler  
+  #### *Note* - There are numerous labelers present in the marketplace. So, maintainers are requested to choose in accordance to project requirements. Consequently, a combination has been used here, in order to capture the best of both worlds.
+  Types :
+    - Labels issues based on keywords found in Issue/PR
+      - Action deprecated, so [Bot here](https://github.com/marketplace/keywordlabeler) *(Recommended)*
+      - Configuration file [here](.github/keylabeler.yml)
+    - Labels PRs based on extension of file changed
+      - [Action here](https://github.com/marketplace/actions/auto-label-action)  
+      - *Example Workflow :*  
+        **Find the workflow file [here](.github/workflows/greetings.yml)**  
+        Configuration file [here](.github/auto-label.json)
+  - Labels PRs based on branch  
+    - [Action here](https://github.com/marketplace/actions/label-mastermind)
+    
+- ### On PR close
+  - Finds & closes any linked issues to the PR
+      - Example Workflow :  
+      **Find the workflow file [here](.github/workflows/Auto_Issue_Closer.yml)**
+      
+- ### Close Stale Issues
+  - Marks & closes stale issue after a pre-stipulated time.
+      - [Action here](https://github.com/marketplace/actions/close-stale-issues)
+        or
+      - [Bot here](https://github.com/marketplace/stale) *(Recommended)*
+
+- ### Auto-updates Contributors list
+  - Fetches top contributors & adds them to `CONTRIBUTORS.md`
+      - Example Workflow :  
+      **Find the workflow file [here](.github/workflows/contributors.yml)**  
+
+    
+### Note-  Issue Form (Beta) has been utilised here for keylabeler to work super-efficently  
+  
+---
+
+#### This repository is a collection of ALL features a large-scale opensource project maintainer could wish for... Based off actions already in the marketplace.
+
+### Open source project that is using this cool workflow :
+**[GirlScript Winter of Contributing '21 Project repository](https://github.com/girlscript/winter-of-contributing)** with over 6000 participants, 1k stars & 1.7k forks**. This actions combo has has helped the maintainers review & attend to issues & PRs in a very efficient & orderly fashion.
