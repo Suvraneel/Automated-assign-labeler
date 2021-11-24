@@ -135,4 +135,4 @@ jobs:
 #### This repository is a collection of ALL features a large-scale opensource project maintainer could wish for... Based off actions already in the marketplace.
 
 ### Open source project that is using this cool workflow :
-**[GirlScript Winter of Contributing '21 Project repository](https://github.com/girlscript/winter-of-contributing)** with over 6000 participants, 1k stars & 1.7k forks**. This actions combo has has helped the maintainers review & attend to issues & PRs in a very efficient & orderly fashion.
+**[GirlScript Winter of Contributing '21 Project repository](https://github.com/girlscript/winter-of-contributing) with over 6000 participants, 1k stars & 1.7k forks**. This actions combo has has helped the maintainers review & attend to issues & PRs in a very efficient & orderly fashion.
