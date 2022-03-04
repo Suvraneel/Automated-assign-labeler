@@ -60,7 +60,7 @@ Fixes # <issue_number_here>
 - [ ] I have performed a self-review of my own code or work.
 - [ ] I have commented my code, particularly in hard-to-understand areas.
 - [ ] My changes generates no new warnings.
-- [ ] I'm GWOC'21 contributor
+- [ ] I'm GWOC'22 contributor
 
 <hr>
 
